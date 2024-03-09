@@ -1,0 +1,25 @@
+import torch.nn as nn  --> to import neural network
+import speech_recognition as sr   -->to listen voice from microphone(voice to text)
+import pyttsx3   -->text-to-speech conversion library
+import datetime  -->to fetch current date and time
+import sys       -->
+from PyQt5 import QtGui
+from PyQt5.QtCore import *
+from PyQt5.QtCore import QTimer, QTime, QDate
+from PyQt5.QtWidgets import *
+import numpy as np
+import nltk
+from nltk.stem.porter import PorterStemmer
+import random
+import json
+import torch
+import wikipedia
+import pywhatkit
+import webbrowser
+import keyboard
+import pyautogui
+import os
+import random
+import requests
+import bs4
+from torch.utils.data import Dataset, DataLoader
